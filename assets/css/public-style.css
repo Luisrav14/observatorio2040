@@ -1,0 +1,50 @@
+* {
+  font-family: "Montserrat", sans-serif !important;
+}
+
+/* Acerca de | Page */
+
+header {
+  width: 100%;
+  height: 40vh;
+  position: relative;
+  box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.5);
+}
+
+.header-acerca {
+  background: url("../images/banner3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header-tit {
+  top: 50%;
+  padding-top: 8rem;
+  color: #fff;
+  font-weight: bolder;
+  font-size: 4vh;
+}
+
+section {
+  width: 100%;
+  height: auto;
+}
+
+h1 {
+  font-size: 2em;
+  font-weight: bolder !important;
+  color: #023047;
+}
+
+p {
+  text-align: justify;
+  line-height: 2em;
+}
+
+/* Indicadores | Page */
+
+.header-indicadores {
+  background: url("../images/banner4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}

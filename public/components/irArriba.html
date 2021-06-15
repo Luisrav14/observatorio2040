@@ -1,0 +1,24 @@
+<span class="ir-arriba"><img class="w-100" src="../assets/images/arriba.gif" alt="ir-arriba" /></span>
+
+<script src="https://code.jquery.com/jquery-1.12.4.js" crossorigin="anonymous"></script>
+
+<script>
+  $(document).ready(function () {
+    $(".ir-arriba").click(function () {
+      $("body, html").animate(
+        {
+          scrollTop: "0px",
+        },
+        500
+      );
+    });
+
+    $(window).scroll(function () {
+      if ($(this).scrollTop() > 0) {
+        $(".ir-arriba").slideDown(300);
+      } else {
+        $(".ir-arriba").slideUp(300);
+      }
+    });
+  });
+</script>

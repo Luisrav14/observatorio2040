@@ -6,7 +6,6 @@ window.addEventListener("scroll", function () {
   header.classList.toggle("scrolling-active", windowPosition);
 });
 
-// Graficas chart.js
 
 // Carrusel Publicaciones
 
