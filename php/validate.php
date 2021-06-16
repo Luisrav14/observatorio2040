@@ -19,8 +19,8 @@ if ($rows) {
 } else {
 ?>
     <script>
-        alert('Usuario o contraseña incorrect@');
         window.location.replace('../admin/login.html');
+        alert('Usuario o contraseña incorrect@');
     </script>
 <?php
 }

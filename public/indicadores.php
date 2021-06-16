@@ -22,7 +22,7 @@
     </header>
 
     <main>
-        <section class="mt-5">
+        <section class="mt-5 h-100">
             <div class="container">
                 <div class="row">
                     <div class="justify-content-around">
